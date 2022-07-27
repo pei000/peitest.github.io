@@ -1,11 +1,27 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap de11111111111111mo</title>
-  </head>
-  <body>
-    <h1>Hello, world!1111111111111111</h1>
-  </body>
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Bootstrap vueeee</title>
+</head>
+
+<body>
+    <h1>Hello, vueeee</h1>
+    <div id="app">
+        {{ message }}
+    </div>
+    <script type="text/javascript">
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!'
+        }
+    })
+    </script>
+</body>
+
 </html>
